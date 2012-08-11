@@ -53,9 +53,6 @@ header a {
 	width: 690px;
 	color: #555;
 }
-img#cobalys-footer{
-	margin-top: 30px; margin-right: 40px;
-}
 div.footer{
 	margin: auto;
 	width: 990px;
@@ -86,7 +83,7 @@ footer {
 	width: 100%;
 	background-color: #222;
 }
-footer * {
+footer p, footer a {
 	color: #ccc;
 	font-size: 13px;
 	text-align: center;
@@ -107,6 +104,14 @@ p#description {
 	margin-top: 16px;
 	text-align: center;
 }
+
+footer * {
+    color: #CCCCCC;
+    font-family: Helvetica,arial,freesans,clean,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+    
 /* ------------------------------------------
  * CSS3 GITHUB BUTTONS (Nicolas Gallagher)
  * Licensed under Unlicense
